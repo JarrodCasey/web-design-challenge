@@ -1,0 +1,114 @@
+/* Set Body Font */
+body {
+    background-color: #faee9f;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+/* Set Text Styles */
+h1 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+p {
+    text-align:left;
+    padding-top: 12px;
+}
+
+/* Image Setting */
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.active, .panel:hover {
+    border: #a99305 solid;
+}
+
+/* Landing page image */
+.float-left {
+    float: left;
+}
+
+/* Prioritise the smaller image resolution when using this tag */
+.summary-img {
+    width: 55%!important;
+}
+
+/* Box Class */
+.box {
+    margin-top: 55px; 
+    margin-bottom: 55px; 
+    padding: 25px 35px; 
+    color: #6c6534;
+    background-color: white;
+}
+
+.data-box {
+    margin-top: 55px; 
+    margin-bottom: 55px; 
+    padding: 25px 35px; 
+    color: #6c6534;
+    background-color: white;
+}
+
+/* Row class with padding */
+.row-padding {
+    padding-bottom: 25px;
+}
+
+/* Column headers align left in data datable */
+th {
+    text-align: left;
+}
+
+/* Navbar customisations on top of bootstrap */
+.navbar-brand {
+    padding:inherit;
+    color:#a99305!important;
+    font-weight:bold!important;
+    background-color:#faee9f!important;
+}
+
+.navbar-brand:hover {
+    color:#fae03a!important;
+}
+
+.nav-link {
+    color:rgb(171, 157, 90)!important;
+}
+
+.nav-link:hover {
+    background-color:#fff3be!important;
+}
+
+/* Media query to change colour of navbar for small screen */
+@media (max-width: 992px) {
+    .navbar-expand-lg {
+        background-color:#fae03a!important;
+    }
+    .navbar-brand {
+        background-color: rgb(171, 157, 90)!important;
+        color:white!important;
+    }
+
+    #navbarSupportedContent {
+        background-color: #eee8ba!important;
+    }
+
+    .nav-link {
+        color: rgb(171, 157, 90)!important;
+    }
+
+    button {
+        background-color:#fdd406!important;
+    }
+}
